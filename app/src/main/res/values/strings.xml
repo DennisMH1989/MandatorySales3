@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">MandatorySales</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="login_fragment_label">Login Fragment</string>
+    <string name="all_sales_items_fragment_label">AllSalesItems Fragment</string>
+    <string name="sales_item_details_fragment_label">SalesItemDetails Fragment</string>
+    <string name="my_items_fragment_label">MyItems Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_login_fragment">Hello Login fragment</string>
+    <string name="hello_all_sales_items_fragment">Hello All Sales Items fragment. Arg: %1$s</string>
+    <string name="hello_sales_item_details_fragment">Hello Sales Item Details fragment</string>
+    <string name="hello_my_items_fragment">Hello My Items fragment</string>
+
+    <array name="sortings">
+        <item>Description ascending</item>
+        <item>Description descending</item>
+        <item>Price ascending</item>
+        <item>Price descending</item>
+    </array>
+
+</resources>

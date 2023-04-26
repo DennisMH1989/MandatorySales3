@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "782288769607",
+    "project_id": "mandatorysales-c44ca",
+    "storage_bucket": "mandatorysales-c44ca.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:782288769607:android:a7427ae74774c3a4055762",
+        "android_client_info": {
+          "package_name": "com.example.mandatorysales"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "782288769607-6532n6k1oeisv3kbovcop9dq5kruv1dh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAbqbZ-mM5lZ_rdfohvnr0V4AIupAN4ruE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "782288769607-6532n6k1oeisv3kbovcop9dq5kruv1dh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

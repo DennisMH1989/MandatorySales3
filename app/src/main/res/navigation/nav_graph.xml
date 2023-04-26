@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/LoginFragment">
+
+    <fragment
+        android:id="@+id/LoginFragment"
+        android:name="com.example.mandatorysales.LoginFragment"
+        android:label="Loginnew"
+        tools:layout="@layout/fragment_login">
+
+        <action
+            android:id="@+id/action_LoginFragment_to_AllSalesItemsFragment"
+            app:destination="@id/AllSalesItemsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/AllSalesItemsFragment"
+        android:name="com.example.mandatorysales.AllSalesItemsFragment"
+        android:label="All Sales Items"
+        tools:layout="@layout/fragment_all_sales_items">
+
+        <action
+            android:id="@+id/action_AllSalesItemsFragment_to_LoginFragment"
+            app:destination="@id/LoginFragment" />
+        <action
+            android:id="@+id/action_AllSalesItemsFragment_to_SalesItemDetailsFragment"
+            app:destination="@id/SalesItemDetailsFragment" />
+        <action
+            android:id="@+id/action_AllSalesItemsFragment_to_MyItemsFragment"
+            app:destination="@id/MyItemsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/SalesItemDetailsFragment"
+        android:name="com.example.mandatorysales.SalesItemDetailsFragment"
+        android:label="Sales Item Details"
+        tools:layout="@layout/fragment_sales_item_details" >
+
+        <action
+            android:id="@+id/action_SalesItemDetailsFragment_to_AllSalesItemsFragment"
+            app:destination="@id/AllSalesItemsFragment" />
+        <action
+            android:id="@+id/action_SalesItemDetailsFragment_to_LoginFragment"
+            app:destination="@id/LoginFragment" />
+        <action
+            android:id="@+id/action_SalesItemDetailsFragment_to_MyItemsFragment"
+            app:destination="@id/MyItemsFragment" />
+        <argument
+            android:name="position"
+            app:argType="integer" />
+    </fragment>
+    <fragment
+        android:id="@+id/MyItemsFragment"
+        android:name="com.example.mandatorysales.MyItemsFragment"
+        android:label="My Items"
+        tools:layout="@layout/fragment_my_items" >
+        <action
+            android:id="@+id/action_MyItemsFragment_to_LoginFragment"
+            app:destination="@id/LoginFragment" />
+        <action
+            android:id="@+id/action_MyItemsFragment_to_SalesItemDetailsFragment"
+            app:destination="@id/SalesItemDetailsFragment" />
+        <action
+            android:id="@+id/action_MyItemsFragment_to_AllSalesItemsFragment"
+            app:destination="@id/AllSalesItemsFragment" />
+    </fragment>
+</navigation>
